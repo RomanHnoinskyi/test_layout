@@ -12,7 +12,6 @@ const Paragraph = ({title, text, show}) => {
                     <p>
                         {text}
                     </p>
-
                 </div>
                 <div>
                     <button style={{width:40, height:40, backgroundColor:'#F2726C', borderRadius:50}}>

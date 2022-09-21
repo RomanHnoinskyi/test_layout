@@ -1,6 +1,6 @@
 
 import './App.scss';
-import {Routes, Route,Links } from 'react-router-dom'
+import {Routes, Route } from 'react-router-dom'
 import Navbar from "./components/navbar/navbar";
 import Main from "./pages/main/main";
 import OurMission from "./pages/our_mission/ourMission";

@@ -26,8 +26,6 @@ const Card = ({logo, title, text, focus}) => {
                         {title}
                     </p>
                 )}
-
-
             </div>
         </div>
     );
