@@ -1,0 +1,37 @@
+.button {
+  background: #F2726C;
+  border-radius: 30px;
+  color: white;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.col {
+  display: flex;
+  flex-direction: column;
+}
+
+.details {
+  width: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+@media (max-width: 600px) {
+
+.details{
+  text-align: start;
+}
+}
+
+@media (min-width: 601px) {
+  .footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+}

@@ -1,0 +1,68 @@
+.teamHeader {
+  padding-top: 90px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.teamPhoto {
+  display: flex;
+  //flex-direction: row;
+  justify-content: space-around;
+
+}
+.photoPerson {
+
+}
+@media (max-width: 600px) {
+  .teamPhoto {
+    flex-direction: column;
+    margin: 18px;
+  }
+  .photoPerson {
+    width: 200px;
+    height: 170px;
+  }
+  .vector1 {
+    z-index: -1;
+    top:160%;
+    left:40%;
+    width: 230px;
+    height: 120px;
+    position: absolute;
+    transform: rotate(39deg);
+  }
+  .vector2 {
+    z-index: -1;
+    width: 230px;
+    height: 120px;
+    transform: rotate(115deg);
+  }
+  .chet {
+    align-self: end;
+    padding-top: 10px;
+  }
+}
+
+@media (min-width: 601px) {
+  .teamPhoto {
+    height: 430px;
+  }
+  .photoPerson {
+    width: 270px;
+    height: 300px;
+  }
+  .vector1 {
+    z-index: -1;
+    position: absolute;
+    left: 19%;
+  }
+  .vector2 {
+    z-index: -1;
+    position: absolute;
+    right: 19%;
+    top: 106%;
+  }
+  .chet {
+   padding-top: 50px;
+  }
+}

@@ -1,0 +1,30 @@
+
+
+.cardconteiner {
+  display: flex;
+  //align-items: center;
+  //justify-content: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.prev {
+  width: 100px;
+  height: 100px;
+  display: block;
+}
+
+
+@media (max-width: 600px) {
+  .cardmedia {
+    width: 280px;
+    height: 300px;
+  }
+}
+
+@media (min-width: 601px) {
+  .cardmedia {
+    width: 350px;
+    height:350px ;
+    margin: 30px;
+  }
+}

@@ -1,0 +1,16 @@
+.par {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+}
+@media (min-width: 601px) {
+ .par {
+   width: 536px;
+ }
+}
+@media (max-width: 600px) {
+.par {
+  width: 100%;
+}
+}

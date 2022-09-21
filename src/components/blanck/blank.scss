@@ -1,0 +1,37 @@
+.list {
+  background: #F7F3F4;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.input {
+  width: 312px;
+  height: 48px;
+}
+
+@media (min-width: 601px) {
+  .list {
+    width: 422px;
+    height: 352px;
+  }
+  .descript {
+    width: 384px;
+  }
+  .descript_text {
+    font-size: 18px;
+  }
+}
+@media (max-width: 600px) {
+  .list {
+    width: 339px;
+    height: 328px;
+  }
+  .descript {
+    width: 334px;
+  }
+  .descript_text {
+    font-size: 15px;
+  }
+}
