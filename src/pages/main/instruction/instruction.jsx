@@ -28,15 +28,20 @@ const Instruction = () => {
                         clean up litter; not to pollute open water bodies;
                         to switch to alternative energy sources; to reduce
                         the use of non-renewable resources'
-                            show={true}
                         />
                         <Paragraph
                             title='How to save nature ecology?'
-                            show={false}
+                            text='22222 fire in nature and to
+                        clean up litter; not to pollute open water bodies;
+                        to switch to alternative energy sources; to reduce
+                        the use of non-renewable resources'
                         />
                         <Paragraph
                             title='What is nature conservation?'
-                            show={false}
+                            text='333333 in nature and to
+                        clean up litter; not to pollute open water bodies;
+                        to switch to alternative energy sources; to reduce
+                        the use of non-renewable resources'
                         />
                     </div>
                 </div>

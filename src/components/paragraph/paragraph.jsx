@@ -1,7 +1,21 @@
 import React from 'react';
+import { useState } from 'react';
 import './paragraph.scss'
 
-const Paragraph = ({title, text, show}) => {
+const Paragraph = ({title, text}) => {
+
+    const [show, setShow] = useState(false)
+
+   const closeText = () => {
+        setShow(false)
+    }
+
+   const openText = () => {
+        setShow(true)
+    }
+
+
+
     return (
         <div>
             <div className='par'>
@@ -9,19 +23,22 @@ const Paragraph = ({title, text, show}) => {
                     <h3>
                         {title}
                     </h3>
-                    <p>
-                        {text}
-                    </p>
+                    { show && (
+                         <p>
+                         {text}
+                     </p>
+                        ) }
+                    
                 </div>
                 <div>
                     <button style={{width:40, height:40, backgroundColor:'#F2726C', borderRadius:50}}>
                         { show && (
-                            <div>
+                            <div onClick={closeText}>
                                 -
                             </div>
                         ) }
                         {!show && (
-                            <div>
+                            <div onClick={openText}>
                                 +
                             </div>
                         )}
